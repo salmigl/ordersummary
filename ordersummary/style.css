@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+.card {
+    background-color: #fff;
+    width: 350px;
+    border-radius: 20px;
+    text-align: center;
+    height: 90vh;
+    max-height: 600px;
+    margin: auto;
+    color: hsl(224, 23%, 56%);
+}
+
+h1,
+b {
+    color: hsl(223, 47%, 23%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+.img1 {
+    width: 100%;
+}
+
+.img1 img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.textoo h1 {
+    margin-top: 20px;
+}
+.textoo h1:hover{
+    margin-top: 30px;
+    color: hsl(172, 84%, 43%);
+    font-size: 20px;
+
+}
+
+.textoo .text {
+    margin: 15px 10%;
+}
+
+.textoo .cancel {
+    text-decoration: none;
+    font-weight: bold;
+    color: hsl(217, 4%, 39%);
+
+}
+
+.textoo a:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+.precioo {
+
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.precioo a {
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-weight: bolder;
+}
+
+.preciooa:hover {
+    text-decoration: none;
+    color: hsl(245, 75%, 52%);
+}
+
+.precioo .cuadrado {
+
+    align-self: center;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.btn {
+
+    background-color: hsl(245, 75%, 52%);
+    width: 90%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+    color: white;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: hsl(245, 91%, 66%);
+    width: 90%;
+    height: 50px;
+
+}
+
+.cancel {
+    font-size: 14px;
+}
+
+@media only screen and (min-width:1440px) {}
+
+@media only screen and (max-width:375px) {}
